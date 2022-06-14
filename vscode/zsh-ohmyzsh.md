@@ -1,4 +1,4 @@
-## MacOS X + oh my zsh + powerline fonts + visual studio code (vscode) terminal settings
+## Linux + oh my zsh + powerline fonts + visual studio code (vscode) terminal settings
 > Thank you everybody, Your comments makes it better
 
 ### Install oh my zsh
@@ -28,36 +28,10 @@ https://www.nerdfonts.com/font-downloads
 ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it. 
 
 ```sh
-"terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-// @vtwang added (deprecated)
-// "terminal.integrated.shell.osx": "/bin/zsh",
-"terminal.integrated.defaultProfile.osx": "zsh",
+"terminal.integrated.fontFamily": "Hack Nerd Font",
 
-// @jasonekratz added
-// This fixed the glyph issues I was having with Inconsolata Nerd Font.
-"terminal.integrated.gpuAcceleration": "canvas",
+"terminal.integrated.defaultProfile.linux": "zsh",
 
-// @Drakal added
-// I'd also consider adjusting line height if icons are cut off on top too or things look super cramped.
-// "terminal.integrated.lineHeight": 1.3
-
-// @ChongTang, @ramonsantos added
-// @gaochundong said it works like a charm.
-// "terminal.integrated.fontFamily": "Hack Nerd Font"
-
-// @dalekurt added (belows which gives me the the fonts for the terminal and the icons from Nerd Font.)
-// "terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'
-
-// @nickhingston , @olivebay added for powerlevel10k
-// I use powerline10k - which uses https://github.com/romkatv/powerlevel10k/#recommended-meslo-nerd-font-patched-for-powerlevel10k
-// so this worked for me:
-// "terminal.integrated.fontFamily": "MesloLGS NF" 
-
-// @kaustuv added
-// after the changing the font, still had some issues with the glyph spacing in the integrated terminal - fixed it with 
-// @ar2zee : fixed the problem for me.
-// (deprecated)
-// "terminal.integrated.rendererType": "canvas"
 ```
 
 ### Change Theme for Mac OSX Terminal to agnoster
